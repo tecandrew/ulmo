@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "ulmo"
+version = "0.8.8"
+description = "clean, simple and fast access to public hydrology and climatology data"
+authors = ["Dharhas Pothina <dharhas@gmail.com>"]
+license = "BSD"
+readme = "README.rst"
+homepage = "https://github.com/ulmo-dev/ulmo/"
+keywords = [
+    "his",
+    "ulmo",
+    "water",
+    "waterml",
+    "cuahsi",
+    "wateroneflow",
+    "usgs",
+    "ned",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+appdirs = "^1.4.4"
+beautifulsoup4 = "^4.12.3"
+future = "^0.18.3"
+geojson = "^3.1.0"
+isodate = "^0.6.1"
+lxml = "^5.1.0"
+numpy = "<1.24"
+pandas = "<2"
+python-dateutil = "^2.8.2"
+requests = "^2.31.0"
+suds-jurko = "^0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
