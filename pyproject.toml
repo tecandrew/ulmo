@@ -3,6 +3,7 @@ name = "ulmo"
 version = "0.8.8"
 description = "clean, simple and fast access to public hydrology and climatology data"
 authors = ["Dharhas Pothina <dharhas@gmail.com>"]
+maintainers = ["Andrew Tec <andrest@trabus.com>"]
 license = "BSD"
 readme = "README.rst"
 homepage = "https://github.com/ulmo-dev/ulmo/"
@@ -31,6 +32,13 @@ python-dateutil = "^2.8.2"
 requests = "^2.31.0"
 suds-jurko = "^0.6"
 
+
+[tool.poetry.group.dev.dependencies]
+mock = "^5.1.0"
+freezegun = "^1.4.0"
+pytest = "^8.0.0"
+httpretty = "^1.1.4"
+html5lib = "^1.1"
 
 [build-system]
 requires = ["poetry-core"]
