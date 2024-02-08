@@ -7,6 +7,7 @@ maintainers = ["Andrew Tec <andrest@trabus.com>"]
 license = "BSD"
 readme = "README.rst"
 homepage = "https://github.com/ulmo-dev/ulmo/"
+packages = [{ include = "ulmo" }]
 keywords = [
     "his",
     "ulmo",
@@ -39,6 +40,14 @@ freezegun = "^1.4.0"
 pytest = "^8.0.0"
 httpretty = "^1.1.4"
 html5lib = "^1.1"
+
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.2.6"
+numpydoc = "^1.6.0"
 
 [build-system]
 requires = ["poetry-core"]
