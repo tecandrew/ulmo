@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "ulmo"
+version = "0.8.8"
+description = "clean, simple and fast access to public hydrology and climatology data"
+authors = ["Dharhas Pothina <dharhas@gmail.com>"]
+maintainers = ["Andrew Tec <andrest@trabus.com>"]
+license = "BSD"
+readme = "README.rst"
+homepage = "https://github.com/ulmo-dev/ulmo/"
+packages = [{ include = "ulmo" }]
+keywords = [
+    "his",
+    "ulmo",
+    "water",
+    "waterml",
+    "cuahsi",
+    "wateroneflow",
+    "usgs",
+    "ned",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+appdirs = "^1.4.4"
+beautifulsoup4 = "^4.12.3"
+future = "^0.18.3"
+geojson = "^3.1.0"
+isodate = "^0.6.1"
+lxml = "^5.1.0"
+numpy = "<1.24"
+pandas = "<2"
+python-dateutil = "^2.8.2"
+requests = "^2.31.0"
+suds = "^1.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+mock = "^5.1.0"
+freezegun = "^1.4.0"
+pytest = "^8.0.0"
+httpretty = "^1.1.4"
+html5lib = "^1.1"
+coveralls = "^3.3.1"
+pytest-cov = "^4.1.0"
+pytest-runner = "^6.0.1"
+
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.2.6"
+numpydoc = "^1.6.0"
+mock = "^5.1.0"
+python-dateutil = "^2.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
