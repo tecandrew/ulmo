@@ -40,6 +40,9 @@ freezegun = "^1.4.0"
 pytest = "^8.0.0"
 httpretty = "^1.1.4"
 html5lib = "^1.1"
+coveralls = "^3.3.1"
+pytest-cov = "^4.1.0"
+pytest-runner = "^6.0.1"
 
 
 [tool.poetry.group.docs]
