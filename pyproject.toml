@@ -31,7 +31,7 @@ numpy = "<1.24"
 pandas = "<2"
 python-dateutil = "^2.8.2"
 requests = "^2.31.0"
-suds-jurko = "^0.6"
+suds = "^1.1.2"
 
 
 [tool.poetry.group.dev.dependencies]

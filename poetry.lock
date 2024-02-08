@@ -1036,14 +1036,14 @@ standalone = ["Sphinx (>=5)"]
 test = ["pytest"]
 
 [[package]]
-name = "suds-jurko"
-version = "0.6"
-description = "Lightweight SOAP client (Jurko's fork)"
+name = "suds"
+version = "1.1.2"
+description = "Lightweight SOAP client (community fork)"
 optional = false
-python-versions = "*"
+python-versions = ">=3.5"
 files = [
-    {file = "suds-jurko-0.6.tar.bz2", hash = "sha256:29edb72fd21e3044093d86f33c66cf847c5aaab26d64cb90e69e528ef014e57f"},
-    {file = "suds-jurko-0.6.zip", hash = "sha256:1cb7252cb13018fc32887c3a834ed7c6648a5b5c4c159be5806da2e1785399e8"},
+    {file = "suds-1.1.2-py3-none-any.whl", hash = "sha256:e421744c393d876127f1996be4d7c6154476c0b0f543f9cb436f4add5b916c9d"},
+    {file = "suds-1.1.2.tar.gz", hash = "sha256:1d5cfa74117193b244a4233f246c483d9f41198b448c5f14a8bad11c4f649f2b"},
 ]
 
 [[package]]
@@ -1117,4 +1117,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "8acbe1a862f9f35443f01dd76bc74024e16942c0c1b33cf5a7ad82f579144b5c"
+content-hash = "9bab48216739d36e5d12efbf5fc7b5c961de5358df5fc72acc6e647c8f1b4fc7"
